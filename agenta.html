@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Agenda Personal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        .agenda-container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .agenda-item {
+            display: flex;
+            justify-content: space-between;
+            background-color: #fafafa;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .agenda-item:hover {
+            background-color: #f1f1f1;
+        }
+        .event-time {
+            font-weight: bold;
+            color: #333;
+        }
+        .event-description {
+            font-size: 1.1em;
+            color: #555;
+            flex: 1;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mi Agenda Personal</h1>
+        <p>Organiza tu día y no olvides tus compromisos</p>
+    </header>
+
+    <div class="agenda-container">
+        <h2>Agenda de Hoy</h2>
+
+        <!-- Primer Evento -->
+        <div class="agenda-item">
+            <div class="event-time">09:00 AM</div>
+            <div class="event-description">Reunión de equipo - Proyecto X</div>
+        </div>
+
+        <!-- Segundo Evento -->
+        <div class="agenda-item">
+            <div class="event-time">12:00 PM</div>
+            <div class="event-description">Almuerzo con cliente</div>
+        </div>
+
+        <!-- Tercer Evento -->
+        <div class="agenda-item">
+            <div class="event-time">03:00 PM</div>
+            <div class="event-description">Revisión de avances - Proyecto Y</div>
+        </div>
+
+        <!-- Cuarto Evento -->
+        <div class="agenda-item">
+            <div class="event-time">06:00 PM</div>
+            <div class="event-description">Clase de yoga</div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mi Agenda Personal. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
